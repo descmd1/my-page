@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="change.css">
+<script src="change.js"></script>
+</head>
+<body>
+  
+  <div class="topnav">
+    <a class="active>"
+href="#home">Home</a>
+        <a href="about">Abaout</a>
+         <a href="contact">Contact</a>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text"
+            placeholder="Search.." name="search">
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        
+  </div>
+  <div style="padding-left:16px;">
+    <hi>View image Blog</hi>
+  <h3>Welcome to View image </h3>
+    <p>Feel free to upload and downlond pictures of your favourite and the not so favourite moments.</p>
+    <p>Warning: Nudity is not allowed.</p>
+ 
+<h2> Drag and Drop</h2>
+<p>Drag the images back and forth between the the three div elements.</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+<img id="drag1" src="images/paul.png" draggable="true" ondragstart="drag(event)" width="180" height="280">
+<img id="drag2" src="images/beauty.jpg" draggable="true" ondragstart="drag(event)" width="180" height="280">
+</div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div>
+ <footer>
+  ©2022 selp programme.
+ </footer>
+</div>
+
+
+</body>
+</html>
+
